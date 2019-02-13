@@ -1,0 +1,73 @@
+.zui-table {
+    border: solid 1px #b8bac1;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 14px Arial, sans-serif; 
+    width: 100%;
+}
+.zui-table thead th {
+    background-color: #243c88;
+    border: solid 1px #b8bac1;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+.zui-table tbody td {
+    border: solid 1px #b8bac1;
+    color: #333;
+    padding: 15px;
+    text-align: center;
+}
+.align{
+    margin-bottom: 30px;
+}
+.zui-table tbody tr:hover > td a,
+.zui-table tbody td a {
+    color: #333;
+}
+.zui-table tbody tr:hover > td {
+    background-color: #d3f2ff;
+}
+.zui-table thead th:hover,
+.zui-table tbody tr:hover > td:hover {
+    background-color: #f29220;
+}
+.zui-table thead th:first-child:hover {
+    background-color: #243c88;
+}
+.zui-table tbody tr:hover > td:first-child:hover {
+    background-color: transparent;
+}
+.zui-table tbody tr:hover > td:hover a {
+    color: #fff;
+}
+.zui-table tbody td.bg-green {
+    background-color: #5baf45;
+    color: #fff;
+    width: 100px;
+}
+.zui-table tbody td.bg-red a,
+.zui-table tbody td.bg-green a  {
+    color: #fff;
+}
+.zui-table tbody td.bg-yellow {
+    background-color: #d7be31;
+    color: #fff;
+    width: 100px;
+}
+.zui-table tbody td.bg-yellow a  {
+    color: #333;
+}
+.zui-table tbody td.bg-red {
+    background-color: #e75247;
+    color: #fff;
+    width: 100px;
+}
+.zui-table tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.zui-table thead th a{
+    color:white;
+}

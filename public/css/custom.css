@@ -1,0 +1,45 @@
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 15px 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled{
+
+    color: red!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover{
+    color: red!important;
+    background: transparent;
+}
+.jsgrid-button {
+    display: inline-block;
+}
+#side-menu > li > a.active,
+#side-menu ul > li > a.active {
+    background: #cbcdec !important;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        padding-top: 80px;
+    }
+}
+.navbar-top-links>li>a {
+    line-height: 80px;
+    min-height: 80px;
+}
+.app-search a {
+    top: 30px;
+}
+.app-search .form-control, .app-search .form-control:focus {
+    margin-top: 25px;
+}
+a.dt-button, button.dt-button, div.dt-button,
+.btn-info, .btn-info.disabled {
+    border: 1px solid #243c88 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background-color: #243c88;
+    border: 1px solid #243c88;
+}
